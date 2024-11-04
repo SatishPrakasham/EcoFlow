@@ -1,0 +1,104 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .flask1-page {
+    width: 100%;
+    max-width: 428px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #ffffff, #b2d3eb);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: var(--default-font-family);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .eco-flow-title {
+    font-size: 24px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+    color: #000;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    background: url('./assets/Logo.png') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+    color: #000;
+  }
+  
+  .product-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0 20px;
+  }
+  
+  .add-to-cart-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #555;
+  }
+  
+  .cart-icon {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  

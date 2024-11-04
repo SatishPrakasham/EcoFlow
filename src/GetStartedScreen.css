@@ -1,0 +1,220 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  position: relative;
+  width: 428px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden;
+  font-family: var(--default-font-family);
+}
+
+.eco-flow {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: url('./assets/Logo.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.welcome-message-card {
+  background: linear-gradient(135deg, #B2D3EB, #C6E5F5);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.bottle-description {
+  color: #555;
+  font-size: 15px;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+.rectangle {
+  width: 90%;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+  color: #808080;
+  font-size: 15px;
+}
+
+.new-collection {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.frame-container {
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.frame {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+}
+
+.button, .rectangle-button, .rectangle-button-4 {
+  min-width: 80px;
+  height: 40px;
+  background: #e0e0e0;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.all-products-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.rectangle-div {
+  background: #f1f1f1;
+  border-radius: 20px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.product-image {
+  background: url('./assets/Rectangle\ 1.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image2 {
+  background: url('./assets/Rectangle\ 2.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image3 {
+  background: url('./assets/Rectangle\ 3.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image4 {
+  background: url('./assets/Rectangle\ 4.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image5 {
+  background: url('./assets/Rectangle\ 9.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image6 {
+  background: url('./assets/Rectangle\ 10.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image7 {
+  background: url('./assets/Rectangle\ 12.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-image8 {
+  background: url('./assets/Rectangle\ 13.png') no-repeat center center;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-info {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
